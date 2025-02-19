@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringChangeLibrary", "StringChangeLibrary\StringChangeLibrary.csproj", "{E0192DF2-36BB-4DB5-A62B-59A61345E09F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringChangeLibrary", "StringChangeLibrary\StringChangeLibrary.csproj", "{E0192DF2-36BB-4DB5-A62B-59A61345E09F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerSide", "ServerSide\ServerSide.csproj", "{832403B2-ADDF-46C2-BF84-8529823700AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerSide", "ServerSide\ServerSide.csproj", "{832403B2-ADDF-46C2-BF84-8529823700AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSide", "ClientSide\ClientSide.csproj", "{F03A444D-3B3C-42B0-BAF0-A78D786F0527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientSide", "ClientSide\ClientSide.csproj", "{F03A444D-3B3C-42B0-BAF0-A78D786F0527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -21,13 +21,15 @@ namespace ClientSide.Controllers
         [HttpPost]
         public async Task<IActionResult> ChangeString(string input)
         {
-            if (string.IsNullOrEmpty(input))
-            {
-                ViewBag.Result = "Введіть рядок!";
-                return View("Index");
-            }
+            //if (string.IsNullOrEmpty(input))
+            //{
+            //    ViewBag.Result = "Введіть рядок!";
+            //    return View("Index");
+            //}
+            var http = "http://localhost:5195";
+            var https = "https://localhost:7252";
 
-            string apiUrl = $"https://localhost:7252/String?value={System.Net.WebUtility.UrlEncode(input)}";
+            string apiUrl = $"{http}/String?value={System.Net.WebUtility.UrlEncode(input)}";
 
             try
             {

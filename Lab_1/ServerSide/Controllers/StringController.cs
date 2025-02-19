@@ -1,5 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
-using StringChangeLibrary;
+﻿using Microsoft.AspNetCore.Mvc;
+// додавання простору імен
+using StringChangeLibrary; // бібліотека 
+
 namespace ServerSide.Controllers
 {
     [ApiController]
@@ -12,7 +14,6 @@ namespace ServerSide.Controllers
         {
             _libraryObject = libraryObject;
         }
-       
        
         [HttpGet(Name = "ChangeBrackets")]
         public IActionResult ChangeBrackets(string value)

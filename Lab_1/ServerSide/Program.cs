@@ -1,13 +1,12 @@
-using StringChangeLibrary;
+﻿using StringChangeLibrary;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+//підключення контролерів
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddSingleton<StringClass>();
 var app = builder.Build();
 
