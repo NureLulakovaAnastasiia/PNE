@@ -26,7 +26,7 @@ namespace ClientSide.Controllers
             //    ViewBag.Result = "Введіть рядок!";
             //    return View("Index");
             //}
-            var http = "http://localhost:5195";
+            var http = "http://192.168.1.4:5195";
             var https = "https://localhost:7252";
 
             string apiUrl = $"{http}/String?value={System.Net.WebUtility.UrlEncode(input)}";
